@@ -3,7 +3,7 @@ import java.util.Stack;
 public class LargestAreaOfHistrogram {
     public static void main(String[] args) {
         int [] arr = {6, 2, 5, 4 ,5 ,1 , 6};
-        int []rb = new int[arr.length];// nse on right
+        int []rb = new int[arr.length]; // nse on right
 
         Stack<Integer> st = new Stack<>();
         st.push(arr.length -1 );
